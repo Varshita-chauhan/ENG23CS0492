@@ -1,11 +1,11 @@
 import requests
 url="http://4.224.186.213/evaluation-service/logs"
 data
-#Stack ==("fronend")
+#Stack ==("frontend")
 #Level==("debug","info","warn","error","fatal")
 packages_can_be_used_FrontENd={"api","component","hook","page","state"}
 #API is protected route
-"""Other packages they can use atre as follows :-
+"""Other packages they can use are as follows :-
 1.auth
 2.config
 3.middleware
@@ -21,6 +21,7 @@ packages_can_be_used_FrontENd={"api","component","hook","page","state"}
 Response:
 {"logID":"a4aad02e-19d0-4153-86d9-58bf55xxxxxx",
  "message":"sucessful log"}
+ 
 
 
  Code:-
